@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Page Produit - ROUTE DES PÊCHES A LA MARCHE - 7ème édition</title>
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./css/ecommerce.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header">
+    <div class="container">
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <a href="#" class="logo">
+        <img src="./imgs/event-logo 3.png" width="77" height="20" alt="Nike home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="./index.html" class="navbar-link">Accueil</a>
+          </li>
+        </ul>
+
+      </nav>
+
+      <div class="overlay" data-overlay data-nav-toggler></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #PRODUCT
+      -->
+
+      <section class="section product" aria-label="product">
+        <div class="container">
+
+          <div class="product-slides">
+
+            <div class="slider-banner" data-slider>
+              <figure class="product-banner">
+                <img src="./imgs/t-shirt-1.png" width="600" height="600" loading="lazy" alt="Nike Sneaker"
+                  class="img-cover">
+              </figure>
+
+              <figure class="product-banner">
+                <img src="./imgs/t-shirt-2.png" width="600" height="600" loading="lazy" alt="Nike Sneaker"
+                  class="img-cover">
+              </figure>
+
+              <figure class="product-banner">
+                <img src="./imgs/t-shirt-1.png" width="600" height="600" loading="lazy" alt="Nike Sneaker"
+                  class="img-cover">
+              </figure>
+            </div>
+
+            <button class="slide-btn prev" aria-label="Previous image" data-prev>
+              <ion-icon name="chevron-back" aria-hidden="true"></ion-icon>
+            </button>
+
+            <button class="slide-btn next" aria-label="Next image" data-next>
+              <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+            </button>
+
+          </div>
+
+          <div class="product-content">
+
+            <p class="product-subtitle">7ème - édition ROUTE DES PÊCHES A LA MARCHE</p>
+
+            <h1 class="h1 product-title">T-Shirt Pêcheurs</h1>
+
+            <!-- <div class="product-size">
+                <h4>Taille</h4>
+                <div class="size-layout">
+                    <ion-checkbox>Themed checkbox</ion-checkbox>
+                    <ion-checkbox>Themed checkbox</ion-checkbox>
+                    <ion-checkbox>Themed checkbox</ion-checkbox>
+                </div>
+            </div>
+
+            <div class="product-size">
+                <h4>Taille</h4>
+                <div class="size-layout">
+                    <input type="radio" name="size" value="S" id="1" class="size-input">
+                    <label for="1" class="size">S</label>
+
+                    <input type="radio" name="size" value="M" id="2" class="size-input">
+                    <label for="2" class="size">M</label>
+
+                    <input type="radio" name="size" value="L" id="3" class="size-input">
+                    <label for="3" class="size">L</label>
+
+                    <input type="radio" name="size" value="XL" id="4" class="size-input">
+                    <label for="4" class="size">XL</label>
+
+                    <input type="radio" name="size" value="XXL" id="5" class="size-input">
+                    <label for="5" class="size">XXL</label>
+                </div>
+            </div> -->
+
+            <div class="wrapper">
+
+              <span class="price" data-total-price>FCFA 5000.00</span>
+
+            </div>
+
+            <div class="btn-group">
+
+              <div class="counter-wrapper">
+
+                <button class="counter-btn" data-qty-minus>
+                  <ion-icon name="remove-outline"></ion-icon>
+                </button>
+
+                <span class="span" data-qty>1</span>
+
+                <button class="counter-btn" data-qty-plus>
+                  <ion-icon name="add-outline"></ion-icon>
+                </button>
+
+              </div>
+
+              <button class="cart-btn">
+                <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+
+                <span class="span">Acheter</span>
+              </button>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
